@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=PT+Serif:wght@700&family=Permanent+Marker&family=Poltawski+Nowy:wght@500&family=Poppins:ital,wght@0,400;0,500;1,400&family=Raleway:wght@300&family=Righteous&family=Secular+One&display=swap');
+.logo_image{
+    height:70px;
+}
+.navhead{
+    color:rgb(255, 153, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+
+.nav_font{
+    font-size: 18px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.aboutusctn
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.aboutus-content{
+    padding-top: 50px;
+padding-left: 50px;
+font-family: sans-serif;
+font-size: 35px;
+}
+.aboutushead{
+    
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color:rgb(255, 153, 0);
+}
+.aboutus_img{
+    height: 300px;
+    border-radius: 15px;
+}
+.aboutuscontainer{
+    margin-top: 80px;
+}
+hr{
+    border:1px solid rgb(0, 0, 0);
+    
+}
+.imageconatiner{
+    border-radius: 10px;
+}
+.head h5{
+    font-size: 70px;
+}
+.head p{
+    font-size: 30px;
+}
+@media(max-width:576px)
+{
+    .aboutusctn{
+        flex-wrap: wrap;
+    }
+    .aboutus_img{
+        height: 300px;
+        
+    }
+    
+    
+    .herohead{
+        font-size: 70px;
+        padding-left: 30px;
+    
+        
+    }
+    .herohead2{
+        padding-left: 30px;
+        
+        font-size: 20px;
+        
+       
+    }
+}
+.service-container{
+    background-color:rgb(240, 233, 223);
+    margin-top: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+.service-container h6{
+    font-size: medium;
+    font-family: 'PT Serif', serif;
+    
+    font-size: 25px;
+    
+}
+.service-card{
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+    
+}
+.service-card h4{
+    padding-top: 20px;
+   
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.service-card-button{
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+.service-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.planscard_container{
+    text-align: center;
+}
+.planscard_container h5{
+    padding-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color:rgb(255, 153, 0);
+}
+.planscard_container h1{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+.plan_card{
+    width:350px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    box-shadow:1px 2px 30px 0 
+}
+.crossimg{
+    height: 18px;
+}
+.plancard_box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contactus_image{
+    height: 500px;
+}
+.inputs{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+   border-bottom: 2px solid rgb(122, 116, 116);
+ margin: 15px;
+}
+.contactus_form_btn{
+    padding: 10px 15px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left:200px;
+}
+.contactus_form
+{
+    width: 500px;
+}
+.contactus_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contactus_head{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color:rgb(255, 153, 0);
+    text-align: center;
+}
+.team_image{
+    height: 250px;
+}
+.team-card{
+    width: 250px;
+    
+    text-align: center;
+}
+.team-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.team-card-head{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color:rgb(255, 153, 0);
+    text-align: center;
+}
+.footer_img{
+    height: 80px;
+}
+.footer-ctn h1{
+    color:rgb(255, 153, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}
+.footer-ctn
+{
+    text-align:start;
+}
+.footer-ctn-2 h3{
+    color:rgb(255, 153, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Serif', serif;
+}
+.links{
+    list-style-type: none;
+    padding-top: 8px;
+}
+.footer-ctn-3 h3{
+    color:rgb(255, 153, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Serif', serif;
+}
+.footer_container{
+    padding-top: 50px;
+    display: flex;
+   justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.gallery_img{
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.gallery_img_ctn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

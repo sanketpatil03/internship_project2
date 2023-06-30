@@ -1,0 +1,102 @@
+
+.contactHead{
+   
+    font-family: 'Abril Fatface', cursive; font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color:rgb(255, 153, 0);
+    font-family: 'PT Serif', serif;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+   
+}
+.contactPara{
+    font-size: 20px;
+    padding-left: 100px;
+}
+.contact_ctn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_det{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.contact_form_container{
+    width:750px;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+    background-color:#a3a3a331;
+}
+.input_btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    outline: none;
+}
+.form_option{
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+  
+
+}
+.form_msg{
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.main_container{
+    width:100%;
+    height:100vh;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactus_btn{
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: rgb(255, 153, 0);
+    border: none;
+}
+@media(max-width:576px)
+{
+    .input_btn{
+        width: 100%;
+    }
+    .contactHead{
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+.contactPara{
+padding-left: 50px;
+}
+.hero_img{
+    height: 400px;
+}
+}
